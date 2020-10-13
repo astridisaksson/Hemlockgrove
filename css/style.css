@@ -1,0 +1,87 @@
+/*de tre följande styckena är för menyn höst upp på sidan*/
+ .meny {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  overflow: hidden;
+  background-color: #A52A2A;
+  text-align: center;
+  }
+
+  .limeny a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .limeny a:hover{
+    background-color: #800000
+  }
+
+h1 {
+  text-align:center;
+  color: white;
+}
+
+h2 , h4{
+  color: white
+}
+
+p {
+  font-family: "Times New Roman";
+  color: white;
+  font-size: 17px;
+}
+
+body {
+  background: rgb(68,68,68);
+background: linear-gradient(90deg, rgba(68,68,68,1) 0%, rgba(40,40,40,1) 50%, rgba(68,68,68,1) 100%);
+}
+
+.Rbild , .Obild {
+  float: right;
+}
+
+.Pbild , .Sbild {
+  float: left;
+  padding-right: 10px
+}
+
+.Obild {
+  padding-top: 50px;
+}
+
+.Pbild {
+  padding-top: 3px;
+}
+
+.Rbild {
+  padding-top: 7px;
+}
+
+.Sbild {
+  padding-top: 20px;
+}
+
+#karaktärlista {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  color: white;
+  text-align: center;
+}
+
+.centrala {
+text-align: center;
+color: white;
+}
+
+.tt {
+  color: red;
+  text-decoration: none;
+}
